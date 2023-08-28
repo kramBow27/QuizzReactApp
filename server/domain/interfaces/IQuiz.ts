@@ -3,5 +3,6 @@ export interface IQuiz {
   tema_id: number; // Agora é obrigatório
   titulo: string;
   descricao: string; // Agora é obrigatório
-  num_perguntas: number; // Agora é obrigatório, com valor padrão de 10
+  num_perguntas: number;
+  avaliacao: string;// Agora é obrigatório, com valor padrão de 10
 }
