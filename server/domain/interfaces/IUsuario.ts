@@ -1,6 +1,7 @@
 export interface IUsuario {
   usuario_id: number;
   nome: string;
+  sobrenome: string;
   email: string;
     data_nascimento: Date; // Agora é obrigatório
   profile_image?: string; // Pode ser nulo

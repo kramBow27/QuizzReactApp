@@ -8,10 +8,10 @@ export interface IQuizRealizado {
   numero_erros: number;
   progresso: number;
   tema_id: number;
-  tema: IQuizTema;
+  tema?: IQuizTema;
   performance: number;
   data_inicio: Date;
-  data_termino?: Date; // Opcional
+  data_termino?: Date; 
   tempo_duracao_maximo: number;
   tempo_duracao: number;
   id_pergunta: number;

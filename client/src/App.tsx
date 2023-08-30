@@ -1,29 +1,26 @@
-
-
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import React from 'react';
+import { AuthProvider, useAuth } from './util/AuthContext'; 
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { HomeScreen } from './screens/HomeScreen';
- import { QuizzScreen } from './screens/QuizzScreen';
-  import { DetailsScreen } from './screens/DetailsScreen';
+import { QuizzScreen } from './screens/QuizzScreen';
+import { DetailsScreen } from './screens/DetailsScreen';
+import LoginScreen from './screens/LoginScreen';
+import PrivateRoute from './util/PrivateRoute';
 
 function App() {
+  
+
   return (
-    <>
-    <BrowserRouter>
-      <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/quizz" element={<QuizzScreen />}   /> 
-
-         <Route path="/details" element={<DetailsScreen />} /> 
-        </Routes>
-   
-    </BrowserRouter>
-    {/* <Router>
+     <AuthProvider>
+      <BrowserRouter>
         <Routes>
-                <Route path="/quizz" element={<QuizzScreen pergunta='Quem descobriu o brasil?' progresso={65} Tema='Historia' />} />      
-
+          <Route path="/home" element={<PrivateRoute component={HomeScreen} />} />
+          <Route path="/quizz" element={<PrivateRoute component={QuizzScreen} />} />
+          <Route path="/details" element={<PrivateRoute component={DetailsScreen} />} />
+          <Route path="/" element={<LoginScreen />} />
         </Routes>
-    </Router> */}
-   </>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 

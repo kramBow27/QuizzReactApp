@@ -1,0 +1,22 @@
+As margens precisarão ser ajustas
+Ajustar padrão de exports
+Padrões de declaração de tipos
+variaveis css
+Objeto QUIZZ (quizzes realizados)
+Objeto tema (icone, cor de fundo)
+O Clock é um relógio que conta o tempo do teste
+Football é o certo
+
+
+Um aplicativo rede social de debates
+O que é um debate?
+Uma pergunta e uma resposta infinitamente
+Uusário cria questionarios, adiciona amigos
+Questionário publico, questionário privado
+Pode discordar da resposta enviando mensagem
+Debates podem ser publicos também
+Votação em o que é considerado o certo ou errado
+Verificação de veracidade
+Adicionar gitignores
+Tem que começar pelos jovens
+Foco inicial> mOOC Tatuapé e arredores, escolas 
