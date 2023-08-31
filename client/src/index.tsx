@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Helmet } from 'react-helmet';
-
+import { Provider} from 'react-redux';
+  import store from './reducers/store';
 import App from './App';
 
 
@@ -9,12 +10,14 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  <Provider store={store}>
+ 
      <Helmet>
         <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
       </Helmet>
     <App />
-  </React.StrictMode>
+
+    </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

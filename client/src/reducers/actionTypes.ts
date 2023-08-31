@@ -1,0 +1,5 @@
+export const SET_USER_ID = 'SET_USER_ID';
+export const SET_USER_DATA = 'SET_USER_DATA';
+export const SET_THEME_DATA = 'SET_THEME_DATA'
+export const SET_QUESTION_DATA = 'SET_QUESTION_DATA'
+export const SET_ALTERNATIVE_DATA = 'SET_ALTERNATIVE_DATA'

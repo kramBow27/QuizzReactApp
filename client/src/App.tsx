@@ -1,6 +1,7 @@
 import React from 'react';
 import { AuthProvider, useAuth } from './util/AuthContext'; 
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
 import { HomeScreen } from './screens/HomeScreen';
 import { QuizzScreen } from './screens/QuizzScreen';
 import { DetailsScreen } from './screens/DetailsScreen';
@@ -12,6 +13,8 @@ function App() {
 
   return (
      <AuthProvider>
+ 
+    
       <BrowserRouter>
         <Routes>
           <Route path="/home" element={<PrivateRoute component={HomeScreen} />} />
@@ -20,7 +23,9 @@ function App() {
           <Route path="/" element={<LoginScreen />} />
         </Routes>
       </BrowserRouter>
-    </AuthProvider>
+  
+  
+          </AuthProvider>
   );
 }
 

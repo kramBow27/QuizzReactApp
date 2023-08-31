@@ -6,6 +6,9 @@ import { TextWrapper5 } from "../styles/home/HomeStyledComponents";
 import QuizzQuestionComponent from "../components/QuizzComponents/QuizzQuestion";
 import QuizzProgressBarComponent from "../components/QuizzComponents/QuizzProgressBar";
 import { CustomButton } from "../components/QuizzComponents/QuizzButton";
+import { useState } from "react";
+import { useSelector } from "react-redux";
+import { RootState } from "../reducers/store";
 // interface QuizzScreenProps {
 //   Tema: string;
 //   pergunta: string;
@@ -14,7 +17,26 @@ import { CustomButton } from "../components/QuizzComponents/QuizzButton";
 // }
 
 export const QuizzScreen : React.FC = () => {
-  
+const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa com a primeira pergunta
+
+  const questions = useSelector((state: RootState) => state.question); // Acesse as perguntas do estado do Redux
+
+  const currentQuestion = questions[currentQuestionIndex]; // Obter a pergunta atual
+
+  // Funções para navegar entre as perguntas
+  const goToNextQuestion = () => {
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    }
+  };
+
+  const goToPreviousQuestion = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(currentQuestionIndex - 1);
+    }
+  };
+
+
  
     return (
      <QuizzIndex>
@@ -22,12 +44,16 @@ export const QuizzScreen : React.FC = () => {
           <Header Tema="História" />
           <QuizzProgressBarComponent progresso="75%"/>
         <QuizzContent>
-            <QuizzQuestionComponent showImage={true} pergunta="The image below is a:" />
+               <QuizzQuestionComponent 
+          showImage={currentQuestion?.contem_imagem || false} 
+          pergunta={currentQuestion?.pergunta_texto || ''}
+          alternativas={currentQuestion?.alternativas || []}
+        />
           
           </QuizzContent>
           <QuizzButton>
-          <CustomButton text="Previous" textColor="#21bdca" borderColor="#21bdca" backgroundColor="#fafafa" />
-            <CustomButton text="Next" textColor="#ffffff" borderColor="21bdca" backgroundColor="#21bdca" />
+          <CustomButton onClick={goToPreviousQuestion} text="Previous" textColor="#21bdca" borderColor="#21bdca" backgroundColor="#fafafa" />
+            <CustomButton  onClick={goToNextQuestion} text="Next" textColor="#ffffff" borderColor="21bdca" backgroundColor="#21bdca" />
             </QuizzButton>
       </QuizzDiv>
     </QuizzIndex>

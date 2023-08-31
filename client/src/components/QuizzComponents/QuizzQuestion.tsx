@@ -5,23 +5,20 @@ import { AlternativeComponent } from './AlternativeComponent';
 
 
 type QuizzQuestionComponentProps = {
-    showImage: boolean;
-    pergunta: string;
+  showImage: boolean;
+  pergunta: string;
+  alternativas: any[]; // Substitua "any" pelo tipo real das suas alternativas
 };
 
-const QuizzQuestionComponent: React.FC<QuizzQuestionComponentProps> = ({ showImage, pergunta }) => {
+const QuizzQuestionComponent: React.FC<QuizzQuestionComponentProps> = ({ showImage, pergunta, alternativas }) => {
   return (
     <QuizzQuestion>
-      <QuizzQuestionText>
-        {pergunta}
-      </QuizzQuestionText>
+      <QuizzQuestionText>{pergunta}</QuizzQuestionText>
       {showImage && <QuizzRectangle />}
-      <QuizzOption>    
-       
-          <AlternativeComponent text="Footbal" correto={true}/>
-       <AlternativeComponent text="Basketball" correto={false}/>
-       <AlternativeComponent text="Volleyball" correto={false}/>
-  <AlternativeComponent text="Squatch" correto={false}/>
+      <QuizzOption>
+        {alternativas.map((alt, index) => (
+          <AlternativeComponent key={index} text={alt.alternativa_texto} correto={alt.correta} />
+        ))}
       </QuizzOption>
     </QuizzQuestion>
   );
