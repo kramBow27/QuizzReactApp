@@ -17,6 +17,8 @@ SENHA(mesma para todos): senha1
 
 # na raiz desse projeto existe um .dump (PostgrSQL) caso queira criar 
 uma instância do banco.
+# É necessário configurar o Pool do pg com as credenciais do seu banco em  ./server/dataBaseServer/dataBaseServer.ts
+# Por padrão o projeto está configurado para json (ou seja, database = false)
 # a estrutura do .json é exatamente a mesma das tabelas
 
 
