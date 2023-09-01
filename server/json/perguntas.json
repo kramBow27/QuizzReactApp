@@ -1,0 +1,402 @@
+[
+    {
+        "pergunta_id": 1,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Quem ganhou a Copa do Mundo de Futebol em 2014?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 2,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Qual � o esporte mais popular nos EUA?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 3,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Qual pa�s � conhecido como a casa do cr�quete?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 4,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Em que ano ocorreram os primeiros Jogos Ol�mpicos modernos?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 5,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Quantas jogadoras h� em um time de v�lei?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 6,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Quem det�m o recorde de mais t�tulos de Grand Slam no t�nis feminino?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 7,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Qual � o tempo recorde para a maratona masculina?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 8,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Em que esporte � famoso Michael Phelps?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 9,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Quem � o maior pontuador da hist�ria da NBA?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 10,
+        "quiz_tema_id": 2,
+        "pergunta_texto": "Qual esporte usa uma bola oval?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 11,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Qual � o principal componente para o processamento em um computador?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 12,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Qual foi o primeiro navegador web?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 13,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Qual � o sistema operacional m�vel mais utilizado?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 14,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Qual foi o primeiro videogame comercialmente bem-sucedido?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 15,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Qual linguagem de programa��o foi criada primeiro?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 16,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "Quem � o co-fundador da Microsoft?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 17,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "O que � um algoritmo?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 18,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "O que � HTML?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 19,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "O que significa CPU?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 20,
+        "quiz_tema_id": 1,
+        "pergunta_texto": "O que � um pixel?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 21,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Quem � conhecido como o Rei do Pop?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 22,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Qual instrumento � associado a Ludwig van Beethoven?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 23,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "O que significa a sigla EDM?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 24,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Quem cantou 'Like a Virgin'?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 25,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Qual � o g�nero musical originado na Jamaica?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 26,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Qual banda lan�ou o �lbum  'Dark Side of the Moon '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 27,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Quem � o compositor de  'As Quatro Esta��es '?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 28,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Quem foi o criador do afrobeat?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 29,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Que g�nero musical � associado a New Orleans?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 30,
+        "quiz_tema_id": 3,
+        "pergunta_texto": "Quem � o autor da pe�a  'O Lago dos Cisnes '?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 31,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Quem � o autor de  'Orgulho e Preconceito '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 32,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Em que ano foi publicado  '1984 ' de George Orwell?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 33,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Qual � o livro mais traduzido do mundo depois da B�blia?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 34,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Quem escreveu  'Cem Anos de Solid�o '?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 35,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Qual livro tem como personagem principal Holden Caulfield?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 36,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Onde se passa a hist�ria de  'O Senhor dos An�is '?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 37,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Quem � o autor de  'Moby Dick '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 38,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Qual � o nome da personagem principal de  'O Apanhador no Campo de Centeio '?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 39,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Qual o nome da autora da s�rie Harry Potter?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 40,
+        "quiz_tema_id": 4,
+        "pergunta_texto": "Quem escreveu  'Crime e Castigo '?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 41,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem foi o autor do discurso  'Eu Tenho um Sonho '?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 42,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Qual � a dura��o do discurso  'Gettysburg Address '?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 43,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem � conhecido pelo seu discurso  'Yes We Can '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 44,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem foi o autor do  'Discurso de Despedida � Na��o '?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 45,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem disse  'Mr. Gorbachev, derrube este muro! '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 46,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "De qual fil�sofo � o discurso  'O Mito da Caverna '?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 47,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "O que significa  'I have nothing to offer but blood, toil, tears and sweat '?",
+        "resposta_correta": 3,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 48,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem � o autor do discurso  'The Ballot or the Bullet '?",
+        "resposta_correta": 2,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 49,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Quem fez o discurso  'Aint I a Woman? '?",
+        "resposta_correta": 4,
+        "contem_imagem": false,
+        "imagem_url": ""
+    },
+    {
+        "pergunta_id": 50,
+        "quiz_tema_id": 5,
+        "pergunta_texto": "Qual presidente dos EUA fez o discurso  'The Only Thing We Have to Fear Is Fear Itself '?",
+        "resposta_correta": 1,
+        "contem_imagem": false,
+        "imagem_url": ""
+    }
+]

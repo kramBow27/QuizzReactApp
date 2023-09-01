@@ -8,7 +8,7 @@ import DetailsTestThemeComponent from '../components/DetailsScreenComponents/Det
 import DetailsHeaderComponent from '../components/DetailsScreenComponents/DetailsHeaderComponent';
 import PopularQuizCard from '../components/HomeScreenComponents/QuizCard';
 import { useSelector } from 'react-redux';
-import { RootState } from '../reducers/store';
+import { RootState } from '../store/store';
 
 
 export const DetailsScreen: React.FC = () => {

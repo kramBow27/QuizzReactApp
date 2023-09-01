@@ -1,0 +1,37 @@
+[
+    {
+        "tema_id": 1,
+        "tema_nome": "Technology",
+        "descricao": "Cobrindo todos os aspectos da tecnologia.",
+        "backgroundcolor": "#FFDAB9",
+        "icone": "https://raw.githubusercontent.com/kramBow27/QuizzReactApp/0bbeace638ab3194ac124f9c2e3e00e2eee09807/client/src/assets/icons/tech.svg"
+    },
+    {
+        "tema_id": 2,
+        "tema_nome": "Sports",
+        "descricao": "Quest�es relacionadas a v�rios esportes.",
+        "backgroundcolor": "#F0F5FC",
+        "icone": "https://raw.githubusercontent.com/kramBow27/QuizzReactApp/0bbeace638ab3194ac124f9c2e3e00e2eee09807/client/src/assets/icons/sports.svg"
+    },
+    {
+        "tema_id": 3,
+        "tema_nome": "Music",
+        "descricao": "De cl�ssicos a contempor�neos na m�sica.",
+        "backgroundcolor": "#f6e5e5",
+        "icone": "https://anima-uploads.s3.amazonaws.com/projects/64e2a09d2fd2ed85515d1f82/releases/64e4ea9b030914fbf1dff3ba/img/frame-5.svg"
+    },
+    {
+        "tema_id": 4,
+        "tema_nome": "Reading",
+        "descricao": "Tudo sobre literatura e leitura.",
+        "backgroundcolor": null,
+        "icone": "https://raw.githubusercontent.com/kramBow27/QuizzReactApp/0bbeace638ab3194ac124f9c2e3e00e2eee09807/client/src/assets/icons/reading.svg"
+    },
+    {
+        "tema_id": 5,
+        "tema_nome": "Speech",
+        "descricao": "Focado na arte da orat�ria.",
+        "backgroundcolor": null,
+        "icone": "https://raw.githubusercontent.com/kramBow27/QuizzReactApp/0bbeace638ab3194ac124f9c2e3e00e2eee09807/client/src/assets/icons/speech.svg"
+    }
+]

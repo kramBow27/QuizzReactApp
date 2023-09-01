@@ -1,12 +1,12 @@
 import React from 'react';
-import { setThemeData } from '../../reducers/themeSlice';
+import { setThemeData } from '../../store/themeSlice';
 import ReadingIcon from '../../assets/icons/reading.svg'
 import speakingIcon from '../../assets/icons/speech.svg'; // Substitua pelo caminho real para o seu ícone
 import RecentQuizCard from './RecentQuizCard';
 import { RecentQuiz, TextWrapper11, Group17 } from '../../styles/home/HomeStyledComponents';
 import '../../styles/home/home-styles.css'// Substitua pelo caminho real para o seu componente
 import { useSelector } from 'react-redux';
-import { RootState } from '../../reducers/store';
+import { RootState } from '../../store/store';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';

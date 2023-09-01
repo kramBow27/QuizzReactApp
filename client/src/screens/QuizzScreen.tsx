@@ -3,12 +3,12 @@ import React from "react";
 import Header from "../components/QuizzComponents/Header";
 import { QuizzDiv, QuizzIndex, QuizzContent, QuizzQuestion, QuizzQuestionText, QuizzRectangle, QuizzOption, QuizzGroupWrapper, QuizzTextWrapper3, QuizzEllipse, QuizzDivWrapper, QuizzGroup4, QuizzGroup5, QuizzGroup6, QuizzTextWrapper, QuizzOverlapGroup, QuizzGroup7, QuizzGroup8, QuizzProgress, QuizzRectangleWrapper, QuizzRectangle2, QuizzButton, QuizzNext, QuizzPrevious, QuizzOverlapGroup2Transparent, QuizzGroup3, QuizzTextWrapper4, QuizzTextWrapper6, QuizzOverlapGroup2 } from "../styles/quizz/QuizzStyledComponents";
 import { TextWrapper5 } from "../styles/home/HomeStyledComponents";
-import QuizzQuestionComponent from "../components/QuizzComponents/QuizzQuestion";
+import { QuizzQuestionComponent } from "../components/QuizzComponents/QuizzQuestion";
 import QuizzProgressBarComponent from "../components/QuizzComponents/QuizzProgressBar";
 import { CustomButton } from "../components/QuizzComponents/QuizzButton";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { RootState } from "../reducers/store";
+import { RootState } from "../store/store";
 // interface QuizzScreenProps {
 //   Tema: string;
 //   pergunta: string;
@@ -18,26 +18,42 @@ import { RootState } from "../reducers/store";
 
 export const QuizzScreen : React.FC = () => {
 const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa com a primeira pergunta
-
+ const [userAnswers, setUserAnswers] = useState<any[]>([]);
   const questions = useSelector((state: RootState) => state.question); // Acesse as perguntas do estado do Redux
 
-  const currentQuestion = questions[currentQuestionIndex]; // Obter a pergunta atual
-
-  // Funções para navegar entre as perguntas
-  const goToNextQuestion = () => {
+  const nextQuestion = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+    } else {
+      // Calcule a pontuação aqui
+      let score = 0;
+      for (let i = 0; i < questions.length; i++) {
+        const correctAnswer = questions[i].alternativas.find(alt => alt.correta);
+        if (correctAnswer && userAnswers[i] === correctAnswer.alternativa_id) {
+           console.log('Correto');
+          score++;
+        } else {
+    console.log('Errado');
+  }
+
+      }
+      console.log('Sua pontuação é:', score);
     }
   };
 
-  const goToPreviousQuestion = () => {
+  const previousQuestion = () => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
     }
   };
 
+  const handleAnswerSelection = (answerId: any) => { // Substitua "any" pelo tipo real do seu ID de alternativa
+    const updatedAnswers = [...userAnswers];
+    updatedAnswers[currentQuestionIndex] = answerId;
+    setUserAnswers(updatedAnswers);
+  };
 
- 
+  const currentQuestion = questions[currentQuestionIndex];
     return (
      <QuizzIndex>
       <QuizzDiv>
@@ -47,13 +63,14 @@ const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa 
                <QuizzQuestionComponent 
           showImage={currentQuestion?.contem_imagem || false} 
           pergunta={currentQuestion?.pergunta_texto || ''}
-          alternativas={currentQuestion?.alternativas || []}
+              alternativas={currentQuestion?.alternativas || []}
+              onAnswerSelected={handleAnswerSelection}
         />
           
           </QuizzContent>
           <QuizzButton>
-          <CustomButton onClick={goToPreviousQuestion} text="Previous" textColor="#21bdca" borderColor="#21bdca" backgroundColor="#fafafa" />
-            <CustomButton  onClick={goToNextQuestion} text="Next" textColor="#ffffff" borderColor="21bdca" backgroundColor="#21bdca" />
+          <CustomButton onClick={previousQuestion} text="Previous" textColor="#21bdca" borderColor="#21bdca" backgroundColor="#fafafa" />
+            <CustomButton  onClick={nextQuestion} text="Next" textColor="#ffffff" borderColor="21bdca" backgroundColor="#21bdca" />
             </QuizzButton>
       </QuizzDiv>
     </QuizzIndex>

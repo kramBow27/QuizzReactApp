@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { setQuestionData } from '../../reducers/questionSlice';
+import { setQuestionData } from '../../store/questionSlice';
 import { DetailsButton, DetailsOverlapGroup, DetailsTextWrapper } from '../../styles/details/DetailsStyledComponents';
 import '../../styles/home/home-styles.css';
 import { useNavigate } from 'react-router-dom';

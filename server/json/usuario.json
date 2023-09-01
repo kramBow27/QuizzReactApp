@@ -1,0 +1,46 @@
+[
+    {
+        "usuario_id": 1,
+        "nome": "Aretha",
+        "email": "aretha@email.com",
+        "data_nascimento": "1942-03-25",
+        "profile_image": "https://github.com/kramBow27/QuizzReactApp/blob/main/client/src/assets/user-pics/aretha.jpg?raw=true",
+        "google_auth_id": "auth_123",
+        "overall_performance": null,
+        "sobrenome": "Franklin",
+        "senha": "senha1"
+    },
+    {
+        "usuario_id": 3,
+        "nome": "Marco",
+        "email": "marco@email.com",
+        "data_nascimento": "1980-07-15",
+        "profile_image": "https://github.com/kramBow27/QuizzReactApp/blob/main/client/src/assets/user-pics/marco.jpg?raw=true",
+        "google_auth_id": "auth_456",
+        "overall_performance": null,
+        "sobrenome": "Faria Lima",
+        "senha": "senha1"
+    },
+    {
+        "usuario_id": 2,
+        "nome": "Jessica",
+        "email": "jessica@email.com",
+        "data_nascimento": "1967-10-03",
+        "profile_image": "https://github.com/kramBow27/QuizzReactApp/blob/main/client/src/assets/user-pics/jessica.jpg?raw=true",
+        "google_auth_id": "auth_789",
+        "overall_performance": null,
+        "sobrenome": "Rabbit",
+        "senha": "senha1"
+    },
+    {
+        "usuario_id": 4,
+        "nome": "Henrique",
+        "email": "henrique@email.com",
+        "data_nascimento": "1995-08-08",
+        "profile_image": "https://github.com/kramBow27/QuizzReactApp/blob/main/client/src/assets/user-pics/henrique.jpg?raw=true",
+        "google_auth_id": "auth_101",
+        "overall_performance": null,
+        "sobrenome": "Luna",
+        "senha": "senha1"
+    }
+]

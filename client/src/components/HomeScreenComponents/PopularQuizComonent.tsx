@@ -7,8 +7,8 @@ import { PopularQuiz, TextWrapper5, Group7 } from '../../styles/home/HomeStyledC
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { RootState } from '../../reducers/store';
-import { setThemeData } from '../../reducers/themeSlice';
+import { RootState } from '../../store/store';
+import { setThemeData } from '../../store/themeSlice';
 const PopularQuizComponent: React.FC = () => {
    const dispatch = useDispatch();
   const navigate = useNavigate();

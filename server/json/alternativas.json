@@ -1,0 +1,1402 @@
+[
+    {
+        "alternativa_id": 1,
+        "pergunta_id": 1,
+        "alternativa_texto": "It�lia",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 2,
+        "pergunta_id": 1,
+        "alternativa_texto": "Brasil",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 3,
+        "pergunta_id": 1,
+        "alternativa_texto": "Alemanha",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 4,
+        "pergunta_id": 1,
+        "alternativa_texto": "Argentina",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 5,
+        "pergunta_id": 2,
+        "alternativa_texto": "Futebol Americano",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 6,
+        "pergunta_id": 2,
+        "alternativa_texto": "Basquete",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 7,
+        "pergunta_id": 2,
+        "alternativa_texto": "Beisebol",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 8,
+        "pergunta_id": 2,
+        "alternativa_texto": "H�quei",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 9,
+        "pergunta_id": 3,
+        "alternativa_texto": "Estados Unidos",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 10,
+        "pergunta_id": 3,
+        "alternativa_texto": "Inglaterra",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 11,
+        "pergunta_id": 3,
+        "alternativa_texto": "Brasil",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 12,
+        "pergunta_id": 3,
+        "alternativa_texto": "Austr�lia",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 13,
+        "pergunta_id": 4,
+        "alternativa_texto": "1900",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 14,
+        "pergunta_id": 4,
+        "alternativa_texto": "1896",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 15,
+        "pergunta_id": 4,
+        "alternativa_texto": "1920",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 16,
+        "pergunta_id": 4,
+        "alternativa_texto": "1936",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 17,
+        "pergunta_id": 5,
+        "alternativa_texto": "5",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 18,
+        "pergunta_id": 5,
+        "alternativa_texto": "8",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 19,
+        "pergunta_id": 5,
+        "alternativa_texto": "7",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 20,
+        "pergunta_id": 5,
+        "alternativa_texto": "6",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 21,
+        "pergunta_id": 6,
+        "alternativa_texto": "Margaret Court",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 22,
+        "pergunta_id": 6,
+        "alternativa_texto": "Serena Williams",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 23,
+        "pergunta_id": 6,
+        "alternativa_texto": "Martina Navratilova",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 24,
+        "pergunta_id": 6,
+        "alternativa_texto": "Steffi Graf",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 25,
+        "pergunta_id": 7,
+        "alternativa_texto": "Abaixo de 2 horas",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 26,
+        "pergunta_id": 7,
+        "alternativa_texto": "2h 15m",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 27,
+        "pergunta_id": 7,
+        "alternativa_texto": "2h 10m",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 28,
+        "pergunta_id": 7,
+        "alternativa_texto": "2h 01m 39s",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 29,
+        "pergunta_id": 8,
+        "alternativa_texto": "Nata��o",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 30,
+        "pergunta_id": 8,
+        "alternativa_texto": "Atletismo",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 31,
+        "pergunta_id": 8,
+        "alternativa_texto": "Basquete",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 32,
+        "pergunta_id": 8,
+        "alternativa_texto": "Golfe",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 33,
+        "pergunta_id": 9,
+        "alternativa_texto": "LeBron James",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 34,
+        "pergunta_id": 9,
+        "alternativa_texto": "Kareem Abdul-Jabbar",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 35,
+        "pergunta_id": 9,
+        "alternativa_texto": "Michael Jordan",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 36,
+        "pergunta_id": 9,
+        "alternativa_texto": "Kobe Bryant",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 37,
+        "pergunta_id": 10,
+        "alternativa_texto": "Basquete",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 38,
+        "pergunta_id": 10,
+        "alternativa_texto": "Futebol",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 39,
+        "pergunta_id": 10,
+        "alternativa_texto": "Futebol Americano",
+        "correta": true,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 40,
+        "pergunta_id": 10,
+        "alternativa_texto": "R�gbi",
+        "correta": false,
+        "tema_id": 2
+    },
+    {
+        "alternativa_id": 41,
+        "pergunta_id": 11,
+        "alternativa_texto": "RAM",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 42,
+        "pergunta_id": 11,
+        "alternativa_texto": "CPU",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 43,
+        "pergunta_id": 11,
+        "alternativa_texto": "GPU",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 44,
+        "pergunta_id": 11,
+        "alternativa_texto": "HDD",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 45,
+        "pergunta_id": 12,
+        "alternativa_texto": "Firefox",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 46,
+        "pergunta_id": 12,
+        "alternativa_texto": "Chrome",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 47,
+        "pergunta_id": 12,
+        "alternativa_texto": "Netscape",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 48,
+        "pergunta_id": 12,
+        "alternativa_texto": "Opera",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 49,
+        "pergunta_id": 13,
+        "alternativa_texto": "Android",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 50,
+        "pergunta_id": 13,
+        "alternativa_texto": "iOS",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 51,
+        "pergunta_id": 13,
+        "alternativa_texto": "Windows Phone",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 52,
+        "pergunta_id": 13,
+        "alternativa_texto": "Blackberry",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 53,
+        "pergunta_id": 14,
+        "alternativa_texto": "Mario Bros.",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 54,
+        "pergunta_id": 14,
+        "alternativa_texto": "Doom",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 55,
+        "pergunta_id": 14,
+        "alternativa_texto": "Zelda",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 56,
+        "pergunta_id": 14,
+        "alternativa_texto": "Pong",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 57,
+        "pergunta_id": 15,
+        "alternativa_texto": "C",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 58,
+        "pergunta_id": 15,
+        "alternativa_texto": "Java",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 59,
+        "pergunta_id": 15,
+        "alternativa_texto": "Python",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 60,
+        "pergunta_id": 15,
+        "alternativa_texto": "JavaScript",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 61,
+        "pergunta_id": 16,
+        "alternativa_texto": "Elon Musk",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 62,
+        "pergunta_id": 16,
+        "alternativa_texto": "Steve Jobs",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 63,
+        "pergunta_id": 16,
+        "alternativa_texto": "Larry Page",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 64,
+        "pergunta_id": 16,
+        "alternativa_texto": "Paul Allen",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 65,
+        "pergunta_id": 17,
+        "alternativa_texto": "Um tipo de software",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 66,
+        "pergunta_id": 17,
+        "alternativa_texto": "Uma l�ngua de programa��o",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 67,
+        "pergunta_id": 17,
+        "alternativa_texto": "Uma s�rie de instru��es",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 68,
+        "pergunta_id": 17,
+        "alternativa_texto": "Um protocolo de internet",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 69,
+        "pergunta_id": 18,
+        "alternativa_texto": "Linguagem de marca��o",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 70,
+        "pergunta_id": 18,
+        "alternativa_texto": "Protocolo de seguran�a",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 71,
+        "pergunta_id": 18,
+        "alternativa_texto": "Sistema operacional",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 72,
+        "pergunta_id": 18,
+        "alternativa_texto": "Tipo de CPU",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 73,
+        "pergunta_id": 19,
+        "alternativa_texto": "Computer Peripheral Unit",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 74,
+        "pergunta_id": 19,
+        "alternativa_texto": "Central Processing Unit",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 75,
+        "pergunta_id": 19,
+        "alternativa_texto": "Computer Personal Unit",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 76,
+        "pergunta_id": 19,
+        "alternativa_texto": "Central Peripheral Unit",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 77,
+        "pergunta_id": 20,
+        "alternativa_texto": "Unidade de armazenamento",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 78,
+        "pergunta_id": 20,
+        "alternativa_texto": "Tipo de conex�o",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 79,
+        "pergunta_id": 20,
+        "alternativa_texto": "Protocolo de transfer�ncia",
+        "correta": false,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 80,
+        "pergunta_id": 20,
+        "alternativa_texto": "Ponto de cor numa imagem",
+        "correta": true,
+        "tema_id": 1
+    },
+    {
+        "alternativa_id": 81,
+        "pergunta_id": 21,
+        "alternativa_texto": "Elvis Presley",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 82,
+        "pergunta_id": 21,
+        "alternativa_texto": "Freddie Mercury",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 83,
+        "pergunta_id": 21,
+        "alternativa_texto": "Michael Jackson",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 84,
+        "pergunta_id": 21,
+        "alternativa_texto": "Prince",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 85,
+        "pergunta_id": 22,
+        "alternativa_texto": "Violino",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 86,
+        "pergunta_id": 22,
+        "alternativa_texto": "Flauta",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 87,
+        "pergunta_id": 22,
+        "alternativa_texto": "Guitarra",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 88,
+        "pergunta_id": 22,
+        "alternativa_texto": "Piano",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 89,
+        "pergunta_id": 23,
+        "alternativa_texto": "Every Day Music",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 90,
+        "pergunta_id": 23,
+        "alternativa_texto": "Electronic Drum Music",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 91,
+        "pergunta_id": 23,
+        "alternativa_texto": "Electronic Dance Music",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 92,
+        "pergunta_id": 23,
+        "alternativa_texto": "Extra Dynamic Music",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 93,
+        "pergunta_id": 24,
+        "alternativa_texto": "Britney Spears",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 94,
+        "pergunta_id": 24,
+        "alternativa_texto": "Madonna",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 95,
+        "pergunta_id": 24,
+        "alternativa_texto": "Cher",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 96,
+        "pergunta_id": 24,
+        "alternativa_texto": "Lady Gaga",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 97,
+        "pergunta_id": 25,
+        "alternativa_texto": "Salsa",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 98,
+        "pergunta_id": 25,
+        "alternativa_texto": "Reggae",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 99,
+        "pergunta_id": 25,
+        "alternativa_texto": "Jazz",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 100,
+        "pergunta_id": 25,
+        "alternativa_texto": "Reggae",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 101,
+        "pergunta_id": 26,
+        "alternativa_texto": "Pink Floyd",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 102,
+        "pergunta_id": 26,
+        "alternativa_texto": "The Beatles",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 103,
+        "pergunta_id": 26,
+        "alternativa_texto": "Queen",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 104,
+        "pergunta_id": 26,
+        "alternativa_texto": "Rolling Stones",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 105,
+        "pergunta_id": 27,
+        "alternativa_texto": "Mozart",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 106,
+        "pergunta_id": 27,
+        "alternativa_texto": "Bach",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 107,
+        "pergunta_id": 27,
+        "alternativa_texto": "Vivaldi",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 108,
+        "pergunta_id": 27,
+        "alternativa_texto": "Handel",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 109,
+        "pergunta_id": 28,
+        "alternativa_texto": "Bob Marley",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 110,
+        "pergunta_id": 28,
+        "alternativa_texto": "Fela Kuti",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 111,
+        "pergunta_id": 28,
+        "alternativa_texto": "James Brown",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 112,
+        "pergunta_id": 28,
+        "alternativa_texto": "Ray Charles",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 113,
+        "pergunta_id": 29,
+        "alternativa_texto": "Jazz",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 114,
+        "pergunta_id": 29,
+        "alternativa_texto": "Blues",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 115,
+        "pergunta_id": 29,
+        "alternativa_texto": "Rap",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 116,
+        "pergunta_id": 29,
+        "alternativa_texto": "Rock",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 117,
+        "pergunta_id": 30,
+        "alternativa_texto": "Mozart",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 118,
+        "pergunta_id": 30,
+        "alternativa_texto": "Bach",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 119,
+        "pergunta_id": 30,
+        "alternativa_texto": "Handel",
+        "correta": false,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 120,
+        "pergunta_id": 30,
+        "alternativa_texto": "Tchaikovsky",
+        "correta": true,
+        "tema_id": 3
+    },
+    {
+        "alternativa_id": 121,
+        "pergunta_id": 31,
+        "alternativa_texto": "Stephen King",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 122,
+        "pergunta_id": 31,
+        "alternativa_texto": "J.K. Rowling",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 123,
+        "pergunta_id": 31,
+        "alternativa_texto": "George Orwell",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 124,
+        "pergunta_id": 31,
+        "alternativa_texto": "Jane Austen",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 125,
+        "pergunta_id": 32,
+        "alternativa_texto": "1901",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 126,
+        "pergunta_id": 32,
+        "alternativa_texto": "1925",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 127,
+        "pergunta_id": 32,
+        "alternativa_texto": "1949",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 128,
+        "pergunta_id": 32,
+        "alternativa_texto": "1859",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 129,
+        "pergunta_id": 33,
+        "alternativa_texto": "O Alquimista",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 130,
+        "pergunta_id": 33,
+        "alternativa_texto": "Dom Quixote",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 131,
+        "pergunta_id": 33,
+        "alternativa_texto": "Guerra e Paz",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 132,
+        "pergunta_id": 33,
+        "alternativa_texto": "O Pequeno Pr�ncipe",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 133,
+        "pergunta_id": 34,
+        "alternativa_texto": "Ernest Hemingway",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 134,
+        "pergunta_id": 34,
+        "alternativa_texto": "Gabriel Garc�a M�rquez",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 135,
+        "pergunta_id": 34,
+        "alternativa_texto": "Franz Kafka",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 136,
+        "pergunta_id": 34,
+        "alternativa_texto": "Mark Twain",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 137,
+        "pergunta_id": 35,
+        "alternativa_texto": "A Metamorfose",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 138,
+        "pergunta_id": 35,
+        "alternativa_texto": "Moby Dick",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 139,
+        "pergunta_id": 35,
+        "alternativa_texto": "1984",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 140,
+        "pergunta_id": 35,
+        "alternativa_texto": "O Apanhador no Campo de Centeio",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 141,
+        "pergunta_id": 36,
+        "alternativa_texto": "N�rnia",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 142,
+        "pergunta_id": 36,
+        "alternativa_texto": "Hogwarts",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 143,
+        "pergunta_id": 36,
+        "alternativa_texto": "Terra M�dia",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 144,
+        "pergunta_id": 36,
+        "alternativa_texto": "Westeros",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 145,
+        "pergunta_id": 37,
+        "alternativa_texto": "Herman Melville",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 146,
+        "pergunta_id": 37,
+        "alternativa_texto": "J.D. Salinger",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 147,
+        "pergunta_id": 37,
+        "alternativa_texto": "Leo Tolstoy",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 148,
+        "pergunta_id": 37,
+        "alternativa_texto": "Charles Dickens",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 149,
+        "pergunta_id": 38,
+        "alternativa_texto": "Harry Potter",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 150,
+        "pergunta_id": 38,
+        "alternativa_texto": "Frodo Baggins",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 151,
+        "pergunta_id": 38,
+        "alternativa_texto": "Holden Caulfield",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 152,
+        "pergunta_id": 38,
+        "alternativa_texto": "Jay Gatsby",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 153,
+        "pergunta_id": 39,
+        "alternativa_texto": "George R.R. Martin",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 154,
+        "pergunta_id": 39,
+        "alternativa_texto": "J.K. Rowling",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 155,
+        "pergunta_id": 39,
+        "alternativa_texto": "Suzanne Collins",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 156,
+        "pergunta_id": 39,
+        "alternativa_texto": "Philip Pullman",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 157,
+        "pergunta_id": 40,
+        "alternativa_texto": "Haruki Murakami",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 158,
+        "pergunta_id": 40,
+        "alternativa_texto": "Leo Tolstoy",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 159,
+        "pergunta_id": 40,
+        "alternativa_texto": "Oscar Wilde",
+        "correta": false,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 160,
+        "pergunta_id": 40,
+        "alternativa_texto": "Fyodor Dostoevsky",
+        "correta": true,
+        "tema_id": 4
+    },
+    {
+        "alternativa_id": 161,
+        "pergunta_id": 41,
+        "alternativa_texto": "Barack Obama",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 162,
+        "pergunta_id": 41,
+        "alternativa_texto": "Nelson Mandela",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 163,
+        "pergunta_id": 41,
+        "alternativa_texto": "Martin Luther King Jr.",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 164,
+        "pergunta_id": 41,
+        "alternativa_texto": "Malcolm X",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 165,
+        "pergunta_id": 42,
+        "alternativa_texto": "60 minutos",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 166,
+        "pergunta_id": 42,
+        "alternativa_texto": "3 minutos",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 167,
+        "pergunta_id": 42,
+        "alternativa_texto": "15 minutos",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 168,
+        "pergunta_id": 42,
+        "alternativa_texto": "30 minutos",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 169,
+        "pergunta_id": 43,
+        "alternativa_texto": "Barack Obama",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 170,
+        "pergunta_id": 43,
+        "alternativa_texto": "Bill Clinton",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 171,
+        "pergunta_id": 43,
+        "alternativa_texto": "John F. Kennedy",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 172,
+        "pergunta_id": 43,
+        "alternativa_texto": "George W. Bush",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 173,
+        "pergunta_id": 44,
+        "alternativa_texto": "Abraham Lincoln",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 174,
+        "pergunta_id": 44,
+        "alternativa_texto": "Franklin D. Roosevelt",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 175,
+        "pergunta_id": 44,
+        "alternativa_texto": "Barack Obama",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 176,
+        "pergunta_id": 44,
+        "alternativa_texto": "George Washington",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 177,
+        "pergunta_id": 45,
+        "alternativa_texto": "Ronald Reagan",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 178,
+        "pergunta_id": 45,
+        "alternativa_texto": "Bill Clinton",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 179,
+        "pergunta_id": 45,
+        "alternativa_texto": "Richard Nixon",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 180,
+        "pergunta_id": 45,
+        "alternativa_texto": "John F. Kennedy",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 181,
+        "pergunta_id": 46,
+        "alternativa_texto": "Arist�teles",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 182,
+        "pergunta_id": 46,
+        "alternativa_texto": "Descartes",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 183,
+        "pergunta_id": 46,
+        "alternativa_texto": "Kant",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 184,
+        "pergunta_id": 46,
+        "alternativa_texto": "Plat�o",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 185,
+        "pergunta_id": 47,
+        "alternativa_texto": "George W. Bush",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 186,
+        "pergunta_id": 47,
+        "alternativa_texto": "Abraham Lincoln",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 187,
+        "pergunta_id": 47,
+        "alternativa_texto": "Winston Churchill",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 188,
+        "pergunta_id": 47,
+        "alternativa_texto": "Theodore Roosevelt",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 189,
+        "pergunta_id": 48,
+        "alternativa_texto": "Martin Luther King Jr.",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 190,
+        "pergunta_id": 48,
+        "alternativa_texto": "Malcolm X",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 191,
+        "pergunta_id": 48,
+        "alternativa_texto": "Nelson Mandela",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 192,
+        "pergunta_id": 48,
+        "alternativa_texto": "Barack Obama",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 193,
+        "pergunta_id": 49,
+        "alternativa_texto": "Michelle Obama",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 194,
+        "pergunta_id": 49,
+        "alternativa_texto": "Rosa Parks",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 195,
+        "pergunta_id": 49,
+        "alternativa_texto": "Sojourner Truth",
+        "correta": true,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 196,
+        "pergunta_id": 49,
+        "alternativa_texto": "Harriet Tubman",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 197,
+        "pergunta_id": 50,
+        "alternativa_texto": "Thomas Jefferson",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 198,
+        "pergunta_id": 50,
+        "alternativa_texto": "Abraham Lincoln",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 199,
+        "pergunta_id": 50,
+        "alternativa_texto": "George Washington",
+        "correta": false,
+        "tema_id": 5
+    },
+    {
+        "alternativa_id": 200,
+        "pergunta_id": 50,
+        "alternativa_texto": "Franklin D. Roosevelt",
+        "correta": true,
+        "tema_id": 5
+    }
+]

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../util/AuthContext';
 import { useDispatch } from 'react-redux';
-import { setUserData, setUserId} from '../reducers/userSlice';
+import { setUserData, setUserId} from '../store/userSlice';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import axios from 'axios';

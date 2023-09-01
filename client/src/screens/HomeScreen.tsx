@@ -6,7 +6,7 @@ import { Content, Div, Index, Overlap } from '../styles/home/HomeStyledComponent
 import PopularQuizComponent from '../components/HomeScreenComponents/PopularQuizComonent';
 import RecentQuizComponent from '../components/HomeScreenComponents/RecentQuizComponent';
 import { useSelector } from 'react-redux';
-import { RootState } from '../reducers/store';
+import { RootState } from '../store/store';
 import { Link } from 'react-router-dom';
 
 export const HomeScreen = () => {

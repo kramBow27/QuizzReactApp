@@ -163,31 +163,38 @@ export const QuizzGroup3 = styled .div`
   width: 100px;
 `;
 
-export const QuizzGroup4 = styled.div`
+export const QuizzGroup4 = styled.div<{ selected?: boolean }>`
   display: flex;
   flex-direction: row;
  align-items: center;
   height: 24px;
   width: 100%;
+
+    &.selected {
+    font-weight: bold;
+  }
 `;
 
-export const QuizzTextWrapper3 = styled.div`
+export const QuizzTextWrapper3 = styled.div<{ selected?: boolean }>`
   color: var(--black);
   font-family: 'Montserrat-Medium', Helvetica;
   margin-left: 1.5rem;
   font-size: 14px;
   font-weight: 500;
+  
+  font-weight: ${(props) => props.selected ? 'bold' : 'normal'};
 `;
 
-export const QuizzEllipse = styled.div`
+export const QuizzEllipse = styled.div<{ selected?: boolean }>`
   border: 1px solid #d4d4d4;
   border-radius: 1rem;
   height: 1.6rem;
   margin-left: 1rem;
   width: 1.6rem;
+  background-color: ${(props) => props.selected ? '#FF8C00' : 'transparent'};
 `;
 
-export const QuizzDivWrapper = styled.div`
+export const QuizzDivWrapper = styled.div<{ selected?: boolean }>`
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 1.5px 2px 3px rgba(51, 51, 51, 0.05);
@@ -197,7 +204,19 @@ export const QuizzDivWrapper = styled.div`
   flex-direction: row;
   height: 50px;
   width: 100%;
+
+    &:hover, &.selected {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
+
+  &.selected {
+    font-weight: bold;
+  }
+
+  border: ${(props) => props.selected ? '2px solid yellow' : 'none'};
 `;
+
 
 export const QuizzGroup5 = styled .div`
   background-color: #f6e5e5;
@@ -348,13 +367,18 @@ export const QuizzPrevious = styled .div`
 export const StyledButton = styled.div<{ backgroundColor: string; borderColor: string }>`
   background-color: ${(props) => props.backgroundColor};
   border: 1px solid ${(props) => props.borderColor};
-  display:flex;
+  display: flex;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
   height: 3rem;
-  width: 10rem;;
+  width: 10rem;
+  transition: all 0.3s ease;
 
+  &:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+  }
 `;
 
 export const StyledText = styled.div<{ textColor: string }>`

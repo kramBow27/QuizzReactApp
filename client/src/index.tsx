@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Helmet } from 'react-helmet';
 import { Provider} from 'react-redux';
-  import store from './reducers/store';
+  import store from './store/store';
 import App from './App';
 
 
