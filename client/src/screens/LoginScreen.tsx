@@ -37,16 +37,13 @@ const navigate = useNavigate();
     
     try {
     
-    // Aqui, faço uma requisição POST para a rota '/login' no seu servidor.
-    // Você pode ajustar a URL conforme necessário.
+  
     const response = await axios.post('http://localhost:3000/login', {
       username: username,
       password: password
     });
      
 
-    // Verifica se a autenticação foi bem-sucedida. Você pode ter que ajustar essa condição
-    // dependendo de como sua API responde a uma autenticação bem-sucedida.
       if (response.data.message === 'Autenticado com sucesso') {
       const {
     userId,
@@ -70,15 +67,15 @@ const navigate = useNavigate();
         
        console.log("USUARIO ID DEVE VIR AQUI >" , userData)
 
-dispatch(setUserData(userData));// Adicionando esta linha para definir o ID do usuário
+dispatch(setUserData(userData));
       navigate('/home');
     
     } else {
-      // Se a autenticação falhar, você pode definir um estado para mostrar uma mensagem de erro, por exemplo.
+      
       console.log("Falha na autenticação");
     }
   } catch (error) {
-    // Trate erros aqui, como mostrar uma mensagem ao usuário.
+    
     console.error("Ocorreu um erro durante o login: ", error);
   }
 };

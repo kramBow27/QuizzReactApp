@@ -7,12 +7,13 @@ import { AlternativeComponent } from './AlternativeComponent';
 type QuizzQuestionComponentProps = {
   showImage: boolean;
   pergunta: string;
-  alternativas: any[]; // Substitua "any" pelo tipo real das suas alternativas
-  onAnswerSelected: (answerId: any) => void;  // Substitua "any" pelo tipo real do seu ID de alternativa
+  alternativas: any[]; 
+  onAnswerSelected: (answerId: any) => void; 
 };
 
 export const QuizzQuestionComponent: React.FC<QuizzQuestionComponentProps> = ({ showImage, pergunta, alternativas, onAnswerSelected }) => {
-   const [selectedAlternativeId, setSelectedAlternativeId] = useState(null);
+ 
+  const [selectedAlternativeId, setSelectedAlternativeId] = useState(null);
 
   const handleSelect = (id: any) => {
     setSelectedAlternativeId(id);

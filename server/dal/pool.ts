@@ -10,7 +10,7 @@ const fs = require('fs');
 
 const cors = require('cors');
 const corsOptions = {
-  origin: 'http://localhost:4000', // substitua com o domínio do seu frontend
+  origin: 'http://localhost:4000', 
   optionsSuccessStatus: 204
 }
 

@@ -9,21 +9,13 @@ type AlternativeComponentProps = {
   isSelected: boolean;
 }
 
-export const AlternativeComponent: React.FC<AlternativeComponentProps> = ({ text, onSelect }) => {
-    const [isSelected, setIsSelected] = useState(false);
-
- const onSelected = () => {
-    setIsSelected(!isSelected);
-    onSelect();
-  };
-
-
+export const AlternativeComponent: React.FC<AlternativeComponentProps> = ({ text, onSelect, isSelected }) => {
   return (
-    <QuizzDivWrapper selected={isSelected} onClick={onSelected}>
+    <QuizzDivWrapper selected={isSelected} onClick={onSelect}>
       <QuizzGroup4 selected={isSelected}>
         <QuizzEllipse selected={isSelected} />
         <QuizzTextWrapper3 selected={isSelected}>{text}</QuizzTextWrapper3>
       </QuizzGroup4>
     </QuizzDivWrapper>
   );
-}; 
+};

@@ -17,15 +17,19 @@ import { RootState } from "../store/store";
 // }
 
 export const QuizzScreen : React.FC = () => {
-const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa com a primeira pergunta
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+
  const [userAnswers, setUserAnswers] = useState<any[]>([]);
   const questions = useSelector((state: RootState) => state.question); // Acesse as perguntas do estado do Redux
-
+const theme = useSelector((state: RootState) => state.theme);
   const nextQuestion = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+     
+    setProgress(progress + 10);
     } else {
-      // Calcule a pontuação aqui
+    
       let score = 0;
       for (let i = 0; i < questions.length; i++) {
         const correctAnswer = questions[i].alternativas.find(alt => alt.correta);
@@ -39,6 +43,7 @@ const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa 
       }
       console.log('Sua pontuação é:', score);
     }
+    
   };
 
   const previousQuestion = () => {
@@ -47,7 +52,7 @@ const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa 
     }
   };
 
-  const handleAnswerSelection = (answerId: any) => { // Substitua "any" pelo tipo real do seu ID de alternativa
+  const handleAnswerSelection = (answerId: any) => { 
     const updatedAnswers = [...userAnswers];
     updatedAnswers[currentQuestionIndex] = answerId;
     setUserAnswers(updatedAnswers);
@@ -57,8 +62,8 @@ const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Começa 
     return (
      <QuizzIndex>
       <QuizzDiv>
-          <Header Tema="História" />
-          <QuizzProgressBarComponent progresso="75%"/>
+          <Header Tema={theme.tema_nome} />
+          <QuizzProgressBarComponent progresso={`${progress}`} />
         <QuizzContent>
                <QuizzQuestionComponent 
           showImage={currentQuestion?.contem_imagem || false} 

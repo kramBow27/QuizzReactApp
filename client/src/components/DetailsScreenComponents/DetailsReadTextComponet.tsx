@@ -1,9 +1,9 @@
 import React from 'react';
 import ReadingIcon from '../../assets/icons/reading.svg'
-import speakingIcon from '../../assets/icons/speech.svg'; // Substitua pelo caminho real para o seu ícone
+import speakingIcon from '../../assets/icons/speech.svg';
 
 
-import '../../styles/home/home-styles.css'// Substitua pelo caminho real para o seu componente
+import '../../styles/home/home-styles.css'
 import { DetailsReadText, DetailsP, DetailsGroup, DetailsGroup2, DetailsTextWrapper2, DetailsEllipse, DetailsGroup3, DetailsTextWrapper3, DetailsEllipse2, DetailsGroup4, DetailsEllipse3 } from '../../styles/details/DetailsStyledComponents';
 
 export const DetailsReadTextComponent: React.FC = () => {

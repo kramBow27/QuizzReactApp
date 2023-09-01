@@ -18,7 +18,8 @@ export const DetailsDiv = styled .div`
 export const DetailsButton = styled.button`
   height: 48px;
   left: 24px;
-  
+  border: none;
+  background-color: transparent;
   top: 732px;
   width: 329px;
 `;

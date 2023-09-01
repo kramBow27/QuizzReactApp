@@ -2,7 +2,7 @@ import React from 'react';
 import menuIcon from '../../assets/icons/three-dots.svg'
 import arrowBack from '../../assets/icons/arrow-back.svg'
 import {  DetailsElement3, DetailsEllipse4, DetailsEllipse5, DetailsEllipse6, DetailsFrame2, DetailsGroup12, DetailsGroup13, DetailsHeader,  DetailsTextWrapper10, MenuIcon } from '../../styles/details/DetailsStyledComponents';
-import '../../styles/home/home-styles.css'// Substitua pelo caminho real para o seu componente
+import '../../styles/home/home-styles.css'
 
 export const DetailsHeaderComponent: React.FC = () => {
   return (

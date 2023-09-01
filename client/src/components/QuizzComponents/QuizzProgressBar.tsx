@@ -11,7 +11,7 @@ const QuizzProgressBarComponent: React.FC<QuizzProgressBarComponentProps> = ({ p
   return (
     <QuizzProgress>
             <QuizzRectangleWrapper>
-              <QuizzRectangle2 />
+              <QuizzRectangle2 widthPercent={Number(progresso)} />
             </QuizzRectangleWrapper>
             <QuizzTextWrapper4>Completed {progresso}%</QuizzTextWrapper4>
           </QuizzProgress>

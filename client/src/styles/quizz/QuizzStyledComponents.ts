@@ -292,13 +292,12 @@ export const QuizzRectangleWrapper = styled .div`
   width: 327px;
 `;
 
-export const QuizzRectangle2 = styled .div`
+export const QuizzRectangle2 = styled.div<{ widthPercent: number }>`
   background-color: #21bdca;
   border-radius: 10px;
   height: 6px;
-  width: 185px;
+width: ${props => props.widthPercent ? `${props.widthPercent}%` : '0%'};
 `;
-
 export const QuizzTextWrapper4 = styled .div`
   color: #999999;
   font-family: "Nunito", Helvetica;
