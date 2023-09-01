@@ -111,7 +111,7 @@ app.post('/login', async (req: any, res: any) => {
     console.log("Dois últimos quizzes:", lastTwoQuizzes);
     console.log("Dois últimos temas:", lastTwoQuizzesThemes);
 
-    // Gerar token JWT
+    
     const token = jwt.sign(
       { user: user.usuario_id, username: user.nome, profileImage: user.profile_image },
       "senha",

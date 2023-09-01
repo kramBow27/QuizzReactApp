@@ -3,7 +3,19 @@ Em './server/dal/pool.ts' deve ser definida a varíavel database
 true = conecta com banco de dados;
 false = obtem dados dos .json armazenados em './server/json'
 
-# na raiz desse projeto existe um .dump caso queira criar 
+
+<! PARA LOGAR !>
+
+Usuarios:
+-Henrique
+-Marco
+-Jessica
+-Aretha
+SENHA(mesma para todos): senha1
+
+<!            ---------           !>
+
+# na raiz desse projeto existe um .dump (PostgrSQL) caso queira criar 
 uma instância do banco.
 # a estrutura do .json é exatamente a mesma das tabelas
 

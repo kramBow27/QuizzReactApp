@@ -21,5 +21,5 @@ export class Usuario implements IUsuario {
     this.overall_performance = overall_performance;
   }
 
-  // Você pode adicionar métodos adicionais aqui se desejar
+
 }

@@ -54,5 +54,5 @@ export class Quiz implements IQuizRealizado {
   }
 
 
-  // Você pode adicionar métodos adicionais aqui se desejar
+ 
 }

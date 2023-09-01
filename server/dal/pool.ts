@@ -22,7 +22,7 @@ const app = express();
 app.use(cors());
 app.use(cors(corsOptions));
 app.use(express.json());
-const database: boolean = true;
+const database: boolean = false;
 
 if (database) {
   startDatabaseServer(app)

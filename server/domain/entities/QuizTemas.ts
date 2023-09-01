@@ -15,5 +15,5 @@ export class QuizTema implements IQuizTema {
     this.icone = icone;
   }
 
-  // Você pode adicionar métodos adicionais aqui se desejar
+  
 }
